@@ -26,11 +26,11 @@ class InstallSchema implements InstallSchemaInterface
         $installer->startSetup();
 
         /*
-         * Create table 'wk_grid_records'
+         * Create table 'bootcamp_grid'
          */
 
         $table = $installer->getConnection()->newTable(
-            $installer->getTable('wk_grid_records')
+            $installer->getTable('bootcamp_grid')
         )->addColumn(
             'entity_id',
             \Magento\Framework\DB\Ddl\Table::TYPE_INTEGER,

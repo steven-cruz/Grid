@@ -9,19 +9,19 @@ class Grid extends \Magento\Framework\Model\AbstractModel implements GridInterfa
     /**
      * CMS page cache tag.
      */
-    const CACHE_TAG = 'wk_grid_records';
+    const CACHE_TAG = 'bootcamp_grid';
 
     /**
      * @var string
      */
-    protected $_cacheTag = 'wk_grid_records';
+    protected $_cacheTag = 'bootcamp_grid';
 
     /**
      * Prefix of model events names.
      *
      * @var string
      */
-    protected $_eventPrefix = 'wk_grid_records';
+    protected $_eventPrefix = 'bootcamp_grid';
 
     /**
      * Initialize resource model.

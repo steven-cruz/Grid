@@ -4,7 +4,7 @@
 
     <virtualType name="Omnipro\Grid\Model\ResourceModel\Grid\Grid\Collection" type="Magento\Framework\View\Element\UiComponent\DataProvider\SearchResult">
         <arguments>
-            <argument name="mainTable" xsi:type="string">wk_grid_records</argument>
+            <argument name="mainTable" xsi:type="string">bootcamp_grid</argument>
             <argument name="resourceModel" xsi:type="string">Omnipro\Grid\Model\ResourceModel\Grid</argument>
         </arguments>
     </virtualType>

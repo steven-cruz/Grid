@@ -37,6 +37,6 @@ class Grid extends \Magento\Framework\Model\ResourceModel\Db\AbstractDb
      */
     protected function _construct()
     {
-        $this->_init('wk_grid_records', 'entity_id');
+        $this->_init('bootcamp_grid', 'entity_id');
     }
 }
