@@ -1,0 +1,7 @@
+<?xml version="1.0"?>
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:module:Magento_Backend:etc/menu.xsd">
+    <menu>
+        <add id="Omnipro_Grid::manager" title="Bootcamp Grid" module="Omnipro_Grid" sortOrder="10" resource="Omnipro_Grid::manager" />
+        <add id="Omnipro_Grid::add_row" title="Bootcamp Grid" module="Omnipro_Grid" sortOrder="20" parent="Omnipro_Grid::manager" action="grid/grid" resource="Omnipro_Grid::add_row"/>
+    </menu>
+</config>
